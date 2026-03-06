@@ -14,13 +14,26 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #ffffff;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(252, 251, 251);
+  color: black;
+  font-family: Google sans;
+
+}
+.navbuttons{
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: Google sans;
+}
+
+.navbuttons:hover{
+  background-color: #fdfdfd44;
+  border-radius: 50px;
 }
