@@ -13,6 +13,7 @@ const Shoe = () => {
         name: "Nike Quest 6", 
         price: "₹7,095", 
         img: "/shoe6.png" 
+        
     };
     return (
         <>
